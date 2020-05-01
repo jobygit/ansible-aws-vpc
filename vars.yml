@@ -1,0 +1,15 @@
+---
+# vars file for aws-vpc
+#VPC
+cidr_vpc: 10.10.0.0/24
+vpc_name: ans_vpc
+region: us-east-2
+
+#subnet
+public_subnetA_cidr: 10.10.0.0/26
+public_subnetB_cidr: 10.10.0.64/26
+private_subnetC_cidr: 10.10.0.128/26
+
+
+# Internet Gateway Name
+igw_name: "Public Traffic IGW"
